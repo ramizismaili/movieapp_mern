@@ -1,7 +1,7 @@
 import responseHandler from "../handlers/response.handler";
 import tmdbApi from "../tmbd/tmdb.api";
 import userModel from "../models/user.model";
-import favoriteModel from "../models/favorite.models";
+import favoriteModel from "../models/favorite.model";
 import reviewModel from "../models/review.model";
 
 import tokenMiddleware from "../middlewares/token.middleware";
