@@ -25,7 +25,6 @@ const ScrollAppBar= ({children, window}) => {
     }
     )
 
-    // Cloning the child element passed to this component and setting its styles based on current scroll position and theme mode
     return cloneElement(children, {
         sx: {
             color: trigger ? 'text.primary' : themeMode === themeModes.dark ? 'primary.contrastText' : 'text.primary',
@@ -70,7 +69,6 @@ const Topbar = () => {
 
 
                 {/* main menu */}
-                {/* Displaying main menu items based on menuConfigs file */}
                 <Box flexGrow={1} alignItems='center' display={{ xs: 'none', md: 'flex'}}>
                     <Box sx={{marginRight: '30px'}}>
                         <Logo />
