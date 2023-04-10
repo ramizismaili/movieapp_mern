@@ -50,7 +50,7 @@ const UserMenu = () => {
                 onClick={() => setAnchorEl(null)}
                 >
                     <ListItemIcon>{item.icon}</ListItemIcon>
-                    <ListItemText disableTypography primaryTypographyProps={
+                    <ListItemText disableTypography primary={
                         <Typography textTransform='uppercase' >{item.display}</Typography>
                     } />
                 </ListItemButton>
@@ -59,7 +59,7 @@ const UserMenu = () => {
                 <ListItemIcon>
                     <LogoutOutLinedIcon />
                     </ListItemIcon>
-                    <ListItemText disableTypography primaryTypographyProps={
+                    <ListItemText disableTypography primary={
                         <Typography textTransform='uppercase' >Sign Out</Typography>
                     } />
             </ListItemButton>
